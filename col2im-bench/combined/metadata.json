@@ -1,0 +1,61 @@
+{
+  "base": "ddf1b879dc3a1760cbcb3f3c4a7c6467850cec4a",
+  "candidate": "6db861781371454b22cbf8375466fa8d8c525b81",
+  "first_commit": "e15ffebc421bd31a0ecb54ea255fa154e3e34716",
+  "cpu": "Intel Core Ultra 7 255H",
+  "system": "Linux/WSL2",
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "profile": "release",
+  "rustflags": "-C target-cpu=native",
+  "features": [],
+  "thread_counts": [
+    1,
+    4
+  ],
+  "cpu_affinity": {
+    "1": "0",
+    "4": "0-3"
+  },
+  "process_pairs_per_thread_count": 5,
+  "within_process_samples": 5,
+  "core_tests_passed": 187,
+  "criterion_cases": 9,
+  "clippy_warnings": 0,
+  "new_fold_cases": 216,
+  "new_convolution_cases": 900,
+  "new_input_gradient_cases": 2,
+  "decoder": {
+    "type": "candle_transformers::models::dac::Decoder",
+    "weights": "Fixed values made from each parameter name. No trained checkpoint.",
+    "input_shape": [
+      1,
+      1024,
+      16
+    ],
+    "channels": 1536,
+    "rates": [
+      8,
+      8,
+      4,
+      2
+    ],
+    "output_shape": [
+      1,
+      1,
+      8192
+    ]
+  },
+  "sha256": {
+    "probe.rs": "7af360496e09394fbaa498c72f51a0fc1c9000cec55f2bba42c5315f0c21da9a",
+    "bench.py": "04a601b7b77f44a3854d62cbcac168a896dc9f69fd4a32ee7eb0f7f6aada4c9d",
+    "baseline_probe": "bcf0cdbacd92e2717eba41e83ada2ce497e72733558f4b29e6de0531cd2720a0",
+    "candidate_probe": "b78ab0ca4c88487136bb37e78013a2d92814fedb9744a39b4ee0f9053105f9b1",
+    "all_tests.log": "2bd592fbbb4e0f1c985ef9d4d7f153ba0357a2544c5ce7ca11befbe06ac13488",
+    "bench_check.log": "8103b54e54101a6db8723b6c085273b8c4ef919260ab542a7a86be4fd0237a60",
+    "clippy.log": "e4d10de5b1df54de884441ec1f9e834874e5fc4293452bdb4430c52da3bce5f0",
+    "change.patch": "8efe01a18298fbfd2b5edfa1743a8565c35682ccd8b346efd472d640637052da",
+    "paired.json": "6ba08fa95ec77deda7b22ab607500778b4434a545f36c8bce3dfe9050e8327b6",
+    "summary.json": "29f1a209670d0c317a278a65b6884c0e6995a1f41969171ed6f44d33b6495a44"
+  },
+  "cargo_lock_sha256": "ff5b5126352327d0d72e0c0bd5c29196fa3ae872e7ff5928c647af81b4121713"
+}

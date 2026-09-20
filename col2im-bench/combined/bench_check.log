@@ -1,0 +1,22 @@
+   Compiling candle-core v0.11.0 (/home/hosi/churin/.tools/candle/candle-core)
+    Finished `bench` profile [optimized] target(s) in 4.77s
+     Running benches/bench_main.rs (target/release/deps/bench_main-de5c7a6e7321623c)
+Testing cpu_conv_transpose1d/64x32x8/k4_s2_p0_op0
+Success
+Testing cpu_conv_transpose1d/128x64x3000/k8_s4_p0_op0
+Success
+Testing cpu_conv_transpose1d/16x64x2048/k7_s1_p0_op0
+Success
+Testing cpu_conv_transpose1d/16x64x2048/k4_s4_p0_op0
+Success
+Testing cpu_conv_transpose1d/16x64x2048/k3_s5_p0_op0
+Success
+Testing cpu_conv_transpose1d/16x64x2048/k1_s1_p0_op0
+Success
+Testing cpu_conv_transpose1d/192x96x4096/k4_s2_p1_op0
+Success
+Testing cpu_conv_transpose1d/256x128x256/k10_s5_p3_op1
+Success
+Testing cpu_conv_transpose1d/16x64x2048/k4_s4_p0_op3
+Success
+
