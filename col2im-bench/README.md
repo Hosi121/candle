@@ -1,6 +1,6 @@
 # CPU ConvTranspose1d measurements
 
-The complete layer call includes GEMM, allocation, and col2im. Inputs and weights are fixed nonzero values. No model weights are required. The EnCodec cases use the four decoder layer shapes for one second of audio. These are layer measurements.
+The complete layer call includes GEMM, allocation, and col2im. Inputs and weights are fixed nonzero values. No model weights are required. The EnCodec cases use the decoder channel counts and upsampling ratios with synthetic input lengths. These are layer measurements.
 
 The host is a Core Ultra 7 255H under WSL2. The build uses Rust 1.97.1, the release profile, and `-C target-cpu=native`. `RAYON_NUM_THREADS` is 1 or 4. CPU affinity is 0 or 0–3. Each process has warmup calls and seven timed samples. Five process pairs run in alternating order. Times in the summary are medians of process medians. Both the ratio of medians and each paired reduction are included.
 
