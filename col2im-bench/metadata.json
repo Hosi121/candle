@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/huggingface/candle",
+  "base": "ddf1b879dc3a1760cbcb3f3c4a7c6467850cec4a",
+  "candidate": "e15ffebc421bd31a0ecb54ea255fa154e3e34716",
+  "cpu": "Intel Core Ultra 7 255H",
+  "system": "Linux 6.6.87.2-microsoft-standard-WSL2",
+  "rustc": "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+  "profile": "release",
+  "rustflags": "-C target-cpu=native",
+  "features": [],
+  "thread_counts": [
+    1,
+    4
+  ],
+  "cpu_affinity": {
+    "1": "0",
+    "4": "0-3"
+  },
+  "process_pairs_per_thread_count": 5,
+  "within_process_samples": 7,
+  "full_core_tests_passed": 185,
+  "fold_cases": 216,
+  "full_convolution_reference_cases": 180,
+  "criterion_cases": 6,
+  "upstream_batch_issue": "https://github.com/huggingface/candle/pull/3758",
+  "private_overlap_variant": "Not selected; the result was not consistent across shapes.",
+  "sha256": {
+    "probe.rs": "edfd87023d80d7ba4a2a43858e7a1bd3177fdf5442961315b93c3f9bcdaca1db",
+    "bench.py": "369069266fc00b53b560cef1ddd2d0ff98cd1a88e52bf63d4b149ce931e1f54d",
+    "Cargo.lock": "ff5b5126352327d0d72e0c0bd5c29196fa3ae872e7ff5928c647af81b4121713",
+    "baseline_probe": "75219bd668291ad668aa8fa3fa11d79fcbaf542bc0d7ec7bf212f6af83eadc10",
+    "candidate_probe": "b3d05b2fd4fba1e6817d135911c695454ea9b98cf97626b6c61d07b580173072",
+    "paired.json": "ffa09240c6d29cbb8565e1b40fa137db60c214b96ca6e2732bf6d9c17b6d5e73",
+    "summary.json": "97286a44eed25589428d890dfdf5b9640c925a0f633de249e432adc94e78be0d"
+  }
+}

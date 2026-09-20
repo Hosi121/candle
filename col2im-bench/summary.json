@@ -1,0 +1,290 @@
+[
+  {
+    "threads": 1,
+    "case": "tiny",
+    "baseline_ms": 0.0003291702,
+    "candidate_ms": 0.0003476482,
+    "candidate_reduction_percent": -4.413583321750214,
+    "candidate_range_percent": [
+      -6.965616060832724,
+      -0.7408705070158339
+    ],
+    "candidate_ratio_of_medians_percent": -5.6135093638488565
+  },
+  {
+    "threads": 1,
+    "case": "stream",
+    "baseline_ms": 0.0020543625,
+    "candidate_ms": 0.0020107338,
+    "candidate_reduction_percent": 2.2739395849666,
+    "candidate_range_percent": [
+      0.8759164917649942,
+      4.111302561263397
+    ],
+    "candidate_ratio_of_medians_percent": 2.1237099100085643
+  },
+  {
+    "threads": 1,
+    "case": "encodec0",
+    "baseline_ms": 2.910181777777778,
+    "candidate_ms": 2.8327732222222224,
+    "candidate_reduction_percent": 2.124802100969425,
+    "candidate_range_percent": [
+      1.7866801721915904,
+      8.305144536697473
+    ],
+    "candidate_ratio_of_medians_percent": 2.6599216635417533
+  },
+  {
+    "threads": 1,
+    "case": "encodec1",
+    "baseline_ms": 3.493420142857143,
+    "candidate_ms": 3.289112,
+    "candidate_reduction_percent": 5.13207471524908,
+    "candidate_range_percent": [
+      2.496273083953582,
+      9.519669540919384
+    ],
+    "candidate_ratio_of_medians_percent": 5.848370207485177
+  },
+  {
+    "threads": 1,
+    "case": "encodec2",
+    "baseline_ms": 4.151138285714286,
+    "candidate_ms": 3.7121265,
+    "candidate_reduction_percent": 11.834537088071684,
+    "candidate_range_percent": [
+      8.362079084926622,
+      12.196502967535716
+    ],
+    "candidate_ratio_of_medians_percent": 10.575696483663267
+  },
+  {
+    "threads": 1,
+    "case": "encodec3",
+    "baseline_ms": 2.637734,
+    "candidate_ms": 2.5521979999999997,
+    "candidate_reduction_percent": 3.242783389075632,
+    "candidate_range_percent": [
+      -0.5017569221752227,
+      11.926706198394177
+    ],
+    "candidate_ratio_of_medians_percent": 3.242783389075632
+  },
+  {
+    "threads": 1,
+    "case": "long",
+    "baseline_ms": 22.719928999999997,
+    "candidate_ms": 20.300461000000002,
+    "candidate_reduction_percent": 12.324414011069706,
+    "candidate_range_percent": [
+      9.415066784583138,
+      17.084169677004844
+    ],
+    "candidate_ratio_of_medians_percent": 10.649100179846494
+  },
+  {
+    "threads": 1,
+    "case": "batch",
+    "baseline_ms": 0.9327876296296297,
+    "candidate_ms": 0.6426992619047619,
+    "candidate_reduction_percent": 30.79150416805636,
+    "candidate_range_percent": [
+      28.46787895051409,
+      34.54941982134733
+    ],
+    "candidate_ratio_of_medians_percent": 31.099079630810454
+  },
+  {
+    "threads": 1,
+    "case": "overlap",
+    "baseline_ms": 0.7909484074074074,
+    "candidate_ms": 0.6005463571428571,
+    "candidate_reduction_percent": 25.022521827579215,
+    "candidate_range_percent": [
+      19.09435491389192,
+      26.877517140197327
+    ],
+    "candidate_ratio_of_medians_percent": 24.07262578461412
+  },
+  {
+    "threads": 1,
+    "case": "no_overlap",
+    "baseline_ms": 2.1618394999999997,
+    "candidate_ms": 0.43008943103448277,
+    "candidate_reduction_percent": 79.73844746064272,
+    "candidate_range_percent": [
+      78.88084179940252,
+      81.06590876240676
+    ],
+    "candidate_ratio_of_medians_percent": 80.10539491787051
+  },
+  {
+    "threads": 1,
+    "case": "gaps",
+    "baseline_ms": 0.37573039999999996,
+    "candidate_ms": 0.36559187671232873,
+    "candidate_reduction_percent": 3.174554646805039,
+    "candidate_range_percent": [
+      1.7201779850613663,
+      5.518363377887637
+    ],
+    "candidate_ratio_of_medians_percent": 2.698350542748529
+  },
+  {
+    "threads": 1,
+    "case": "pointwise",
+    "baseline_ms": 0.5401361224489796,
+    "candidate_ms": 0.1737147046979866,
+    "candidate_reduction_percent": 67.36666531905978,
+    "candidate_range_percent": [
+      66.49914842565438,
+      68.74775411456385
+    ],
+    "candidate_ratio_of_medians_percent": 67.83871741249902
+  },
+  {
+    "threads": 4,
+    "case": "tiny",
+    "baseline_ms": 0.0003303776,
+    "candidate_ms": 0.0003388407,
+    "candidate_reduction_percent": -1.801073710086265,
+    "candidate_range_percent": [
+      -3.2013196515624953,
+      -0.3979688695601613
+    ],
+    "candidate_ratio_of_medians_percent": -2.5616446151312866
+  },
+  {
+    "threads": 4,
+    "case": "stream",
+    "baseline_ms": 0.0020872114,
+    "candidate_ms": 0.0019765367,
+    "candidate_reduction_percent": 3.972544419793811,
+    "candidate_range_percent": [
+      3.303028620022963,
+      8.893989782533328
+    ],
+    "candidate_ratio_of_medians_percent": 5.302515116580908
+  },
+  {
+    "threads": 4,
+    "case": "encodec0",
+    "baseline_ms": 1.3079259090909092,
+    "candidate_ms": 1.1536966363636363,
+    "candidate_reduction_percent": 13.279309849251142,
+    "candidate_range_percent": [
+      4.314145828407789,
+      18.181056224459358
+    ],
+    "candidate_ratio_of_medians_percent": 11.791896747000907
+  },
+  {
+    "threads": 4,
+    "case": "encodec1",
+    "baseline_ms": 1.5844425294117648,
+    "candidate_ms": 1.3197541739130434,
+    "candidate_reduction_percent": 15.988100486655554,
+    "candidate_range_percent": [
+      14.416892703364258,
+      25.141977903795933
+    ],
+    "candidate_ratio_of_medians_percent": 16.705456372531778
+  },
+  {
+    "threads": 4,
+    "case": "encodec2",
+    "baseline_ms": 2.1322906666666666,
+    "candidate_ms": 1.6203152941176473,
+    "candidate_reduction_percent": 23.002582913480353,
+    "candidate_range_percent": [
+      17.074115496620546,
+      27.925046775184693
+    ],
+    "candidate_ratio_of_medians_percent": 24.010580759581522
+  },
+  {
+    "threads": 4,
+    "case": "encodec3",
+    "baseline_ms": 1.7029608461538461,
+    "candidate_ms": 1.6932341874999999,
+    "candidate_reduction_percent": 4.466827555018494,
+    "candidate_range_percent": [
+      -4.602558804385448,
+      7.25632250938798
+    ],
+    "candidate_ratio_of_medians_percent": 0.5711616139510212
+  },
+  {
+    "threads": 4,
+    "case": "long",
+    "baseline_ms": 19.711023,
+    "candidate_ms": 16.295944,
+    "candidate_reduction_percent": 17.36898572957305,
+    "candidate_range_percent": [
+      17.155151030768,
+      18.645109904677536
+    ],
+    "candidate_ratio_of_medians_percent": 17.325731901383314
+  },
+  {
+    "threads": 4,
+    "case": "batch",
+    "baseline_ms": 0.9868842692307692,
+    "candidate_ms": 0.717655,
+    "candidate_reduction_percent": 27.280733681226977,
+    "candidate_range_percent": [
+      22.79302023648775,
+      32.8937973700077
+    ],
+    "candidate_ratio_of_medians_percent": 27.280733681226977
+  },
+  {
+    "threads": 4,
+    "case": "overlap",
+    "baseline_ms": 0.8880110952380953,
+    "candidate_ms": 0.61709044,
+    "candidate_reduction_percent": 29.719338105558325,
+    "candidate_range_percent": [
+      11.837246583614547,
+      36.56681727176642
+    ],
+    "candidate_ratio_of_medians_percent": 30.508701601915856
+  },
+  {
+    "threads": 4,
+    "case": "no_overlap",
+    "baseline_ms": 2.2632036666666666,
+    "candidate_ms": 0.590656875,
+    "candidate_reduction_percent": 73.35524357049263,
+    "candidate_range_percent": [
+      71.61408831534312,
+      77.00384358338452
+    ],
+    "candidate_ratio_of_medians_percent": 73.90173568117527
+  },
+  {
+    "threads": 4,
+    "case": "gaps",
+    "baseline_ms": 0.41611509859154927,
+    "candidate_ms": 0.37684291176470586,
+    "candidate_reduction_percent": 9.437818276666821,
+    "candidate_range_percent": [
+      6.027944245167916,
+      19.89875296121033
+    ],
+    "candidate_ratio_of_medians_percent": 9.437818276666821
+  },
+  {
+    "threads": 4,
+    "case": "pointwise",
+    "baseline_ms": 0.6436478157894736,
+    "candidate_ms": 0.22834152380952383,
+    "candidate_reduction_percent": 64.4214253530816,
+    "candidate_range_percent": [
+      62.92737305733501,
+      67.32147301511078
+    ],
+    "candidate_ratio_of_medians_percent": 64.5238408011299
+  }
+]
